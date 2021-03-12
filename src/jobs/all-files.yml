@@ -1,0 +1,9 @@
+description: >
+  Run pre-commit on all files
+
+executor: default
+
+steps:
+  - run: echo "grrr"
+  # - default/install
+  # - default/all-files
