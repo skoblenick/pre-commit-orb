@@ -5,3 +5,8 @@ repos:
       - id: check-yaml
       - id: end-of-file-fixer
       - id: trailing-whitespace
+  - repo: https://github.com/gruntwork-io/pre-commit
+    rev: v0.1.12
+    hooks:
+      - id: terraform-fmt
+      - id: terragrunt-hclfmt
